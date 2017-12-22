@@ -1,0 +1,66 @@
+<resources>
+    //app name
+    <string name="app_name">Assignment</string>
+//common words
+    <string name="login">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="contact">Contact</string>
+    <string name="address">Address</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="name">Name</string>
+    <string name="about">About</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Log Out</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="settings">Settings</string>
+    <string name="edit">Edit</string>
+    <string name="dash_board"> Dash Board</string>
+    <string name="skip"> Skip </string>
+    <string name="continue_">Continue</string>
+    <string name="warning">Warning</string>
+    <string name="start">Start</string>
+    <string name="got_it">GOT IT</string>
+    <string name="next">Next</string>
+
+    //app msg
+    <string name="msg_exit"> Please click BACK again to exit</string>
+    <string name="eighteen_plus_warning"> The app contains sexual references. Only for persons of eighteen years and over</string>
+    //application intro screen data
+    <string name="intro_one_data">Huge collection of thrilling storys with 100 of category with 1000 of tags and multi language supported</string>
+    <string name="intro_one_head">Huge Collection</string>
+    <string name="intro_two_head">Personal lock</string>
+    <string name="intro_two_data">You can protect your application with exclusive password system</string>
+    <string name="intro_three_data">You can write and publish your own stories and experiences , with or without your identity</string>
+    <string name="intro_three_head">Your Story</string>
+    <string name="intro_four_head">Multi Screen Support</string>
+    <string name="intro_four_data">Application has support multi screens and its provide a offline story reading mode</string>
+    <string name="error_msg_languge_list">Languages is Not available please check your internet connection</string>
+    <string name="favorites">Favorites</string>
+    <string name="off_line">Off Line</string>
+    <string name="my_store">My Store</string>
+    <string name="share">Share</string>
+    <string name="categories">Categories</string>
+        <string name="null_input">This Field Cannot Be Blank</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="joining_with_us">Joining With Us</string>
+    <string name="bt_ok">OK</string>
+    <string name="bt_retry">Retry</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="contacts">Contacts</string>
+    <string name="error_no_mutual">No mutual friends found or verify your connection</string>
+    <string name="search">Search</string>
+
+
+</resources>

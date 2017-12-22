@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "in.museon.assignment"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //android support libs
+    implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
+    implementation "com.android.support:design:$supportLibraryVersion"
+    implementation "com.android.support:cardview-v7:$supportLibraryVersion"
+    implementation "com.android.support:recyclerview-v7:$supportLibraryVersion"
+    //android service libs
+    // implementation "com.google.firebase:firebase-messaging:$playServicesVersion"
+    //custom views
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.3.0'
+
+    // view helpers
+    implementation 'com.intuit.sdp:sdp-android:1.0.4'
+    implementation 'com.jakewharton:butterknife:8.7.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+//web service
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+
+//db
+
+//custom annotation
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+
+    //test and other
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    //for validation
+    compile 'com.mobsandgeeks:android-saripaar:2.0.3'
+
+
+}
